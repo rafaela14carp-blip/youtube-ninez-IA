@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "youtube-ninez-IA funcionando"}
+    return {"status": "ok", "message": "youtube-ninez-IA funcionando correctamente"}
